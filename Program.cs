@@ -1,4 +1,4 @@
-﻿using AoC2021.Day1;
+﻿using AoC2021.Day2;
 
-//Console.WriteLine(new Solution().PartOne());
-Console.WriteLine(new Solution().PartTwo());
+Console.WriteLine("Part One: " + new Solution().PartOne());
+Console.WriteLine("Part Two: " + new Solution().PartTwo());
