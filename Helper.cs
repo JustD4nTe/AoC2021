@@ -4,7 +4,7 @@
     {
         public static string ReadFile(string path)
         {
-            using var sr = new StreamReader($"{path}/input.txt");
+            using var sr = new StreamReader($"../../../{path}/input.txt");
             return sr.ReadToEnd();
         }
     }
